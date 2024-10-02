@@ -45,8 +45,13 @@ justify-content: center;
 background: #1d0f0f;
 
         }
-        nav >div:hover,nav >div:hover i{
+        nav div:hover{
             color: var(--hover-same-text-color);
+
+        } 
+
+        nav > .click-div-i-color{
+            color: var(--click-same-text-color);
 
         } 
         nav span:empty{
@@ -56,10 +61,10 @@ background: #1d0f0f;
     box-shadow: inset 0 0 11px #210101;
     height: 100%;
         }
-        nav > div,i{
+        nav > div{
             cursor: pointer;
-            transition: all 0.3s ease;
             color: var(--same-text-color);
+            transition:all 0.3s ease;
         }
 
         .words-area{
